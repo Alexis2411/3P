@@ -13,7 +13,7 @@ export class NuevoComponent implements OnInit {
 
   nuevoForm = new FormGroup({
     name: new FormControl(''),
-    posicion: new FormControl(''),
+    series: new FormControl(''),
     age: new FormControl('')
   });
 
